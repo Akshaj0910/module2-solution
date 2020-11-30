@@ -1,0 +1,139 @@
+#h1{
+  text-align: center;
+}
+ #box1{
+  position: relative;
+  width: 600px;
+  height: 200px;
+  background-color: grey;
+  border: solid black;
+  top: 50px;
+  padding-left: 10px;
+  overflow: auto;
+
+} 
+#box2{
+  position: absolute;
+  right: 0;
+  background-color: pink;
+  border: solid black;
+  width:200px;
+  height: 45px;
+  border-top: 0px;
+  border-right: 0px;
+  text-align: center;
+  font-size: 25px;
+  vertical-align: middle;
+  line-height: 0px;
+}
+
+#box3{
+  position: relative;
+  top: -156px;
+  left: 650px;
+   width: 600px;
+  height: 200px;
+  background-color: grey;
+  border: solid black;
+padding-left: 10px;
+overflow: auto;
+
+}
+#box4{
+  position: absolute;
+  right: 0;
+  background-color: red;
+  border: solid black;
+ width:200px;
+  height: 45px;
+  border-top: 0px;
+  border-right: 0px;
+  text-align: center;
+   text-align: center;
+  font-size: 25px;
+  vertical-align: middle;
+  line-height: 0px;
+  color: white
+} 
+
+#box5{
+  position: relative;
+  top: -362px;
+  left: 1300px;
+   width: 600px;
+  height: 200px;
+  background-color: grey;
+  border: solid black;
+  padding-left: 10px;
+  overflow:auto;
+
+}
+#box6{
+  position: absolute;
+  right: 0;
+  background-color: #DBB445;
+  border: solid black;
+  width:200px;
+  height: 45px;
+  border-top: 0px;
+  border-right: 0px;
+  text-align: center;
+   text-align: center;
+  font-size: 25px;
+  vertical-align: middle;
+  line-height: 0px;
+} 
+
+@media (min-width: 768px) and (max-width: 991px) {
+   #box1{
+  position: relative;
+  
+  top: 50px;
+  left: 0px;
+  width:450px ;
+}
+
+#box3{
+  position: relative;
+  top: -156px;
+  left: 500px;
+   width: 450px;
+  height: 200px;
+
+  }
+
+  #box5{
+  position: relative;
+  top: -125px;
+  left: 0px;
+   width: 950px;
+  height: 200px;
+ 
+}
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #box1{
+  position: relative;
+  
+  top: 50px;
+  left: 0px;
+  width:650px ;
+}
+#box3{
+  position: relative;
+  top: 75px;
+  left: 0px;
+   width: 650px;
+  height: 200px;
+
+}
+  #box5{
+  position: relative;
+  top: 100px;
+  left: 0px;
+   width: 650px;
+  height: 200px;
+ 
+  }
+}
